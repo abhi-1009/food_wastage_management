@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import plotly.express as px
+import mysql.connector
 from sqlalchemy import create_engine, text
 import warnings
 warnings.filterwarnings("ignore")
@@ -16,13 +17,21 @@ warnings.filterwarnings("ignore")
 # ── MySQL Config  ─────────────────────────────────────
 
 import os
+import streamlit as st
 
-HOST     = os.environ.get("HOST", "localhost")
-PORT     = int(os.environ.get("PORT", 3306))
-USER     = os.environ.get("USER", "root")
-PASSWORD = os.environ.get("PASSWORD", " ")
-DATABASE = os.environ.get("DATABASE", "food_wastage")
-
+try:
+    HOST     = st.secrets["HOST"]
+    PORT     = int(st.secrets["PORT"])
+    USER     = st.secrets["USER"]
+    PASSWORD = st.secrets["PASSWORD"]
+    DATABASE = st.secrets["DATABASE"]
+except:
+    HOST     = os.environ.get("HOST", "localhost")
+    PORT     = int(os.environ.get("PORT", 3306))
+    USER     = os.environ.get("USER", "root")
+    PASSWORD = os.environ.get("PASSWORD", "")
+    DATABASE = os.environ.get("DATABASE", "food_wastage")
+    
 # ── Page Setup ────────────────────────────────────────────────
 st.set_page_config(page_title="Food Wastage MS", page_icon="🌿", layout="wide")
 st.markdown("""
