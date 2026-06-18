@@ -253,12 +253,12 @@ USE food_wastage;
 5. Run the Streamlit app
 
 ```bash
-streamlit run Food_WastageManagement.py
+streamlit run Food_Wastage_Management_Streamlit.py.py
 ```
 6. Run EDA charts (optional)
 
 ```bash
-python eda.py
+python Food_WastageManagement.py
 ```
 
 ---
@@ -266,22 +266,22 @@ python eda.py
 ## 📂 Project Structure
 
 food_wastage_management/
-│
-├── Food_WastageManagement.py   # Main Streamlit application (7 pages)
-├── eda.py                      # Python EDA script (16 charts)
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
-│
-├── eda_charts/                 # Generated EDA chart images
-│   ├── 01_provider_type.png
-│   ├── 02_receiver_type.png
-│   └── ... (16 charts total)
-│
-└── (CSV files — not pushed to GitHub)
-    ├── providers.csv
-    ├── receivers.csv
-    ├── food_listings.csv
-    └── claims.csv
+*│
+*├── Food_WastageManagement.py   # Main Streamlit application (7 pages)
+*├── eda.py                      # Python EDA script (16 charts)
+*├── requirements.txt            # Python dependencies
+*├── README.md                   # This file
+*│
+*├── eda_charts/                 # Generated EDA chart images
+*│ *  ├── 01_provider_type.png
+*│ *  ├── 02_receiver_type.png
+*│ *  └── ... (16 charts total)
+*│
+*└── (CSV files — not pushed to GitHub)
+ *   ├── providers.csv
+ *  ├── receivers.csv
+ *   ├── food_listings.csv
+ *   └── claims.csv
 
 ---
 
