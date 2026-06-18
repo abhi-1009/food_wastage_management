@@ -295,8 +295,8 @@ food_wastage_management/
 
 **Abhijit Sinha**
 ---
-GitHub: https://github.com/abhi-1009
-LinkedIn: (www.linkedin.com/in/abhijit-sinha-053b159a)
+** GitHub ** : https://github.com/abhi-1009
+** LinkedIn ** : (www.linkedin.com/in/abhijit-sinha-053b159a)
 ---
 
 ## ⭐ Future Enhancements
