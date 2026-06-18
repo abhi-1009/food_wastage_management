@@ -263,28 +263,27 @@ python Food_WastageManagement.py
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 food_wastage_management/
-*│
-*├── Food_WastageManagement.py   # Main Streamlit application (7 pages)
-*├── eda.py                      # Python EDA script (16 charts)
-*├── requirements.txt            # Python dependencies
-*├── README.md                   # This file
-*│
-*├── eda_charts/                 # Generated EDA chart images
-*│ *  ├── 01_provider_type.png
-*│ *  ├── 02_receiver_type.png
-*│ *  └── ... (16 charts total)
-*│
-*└── (CSV files — not pushed to GitHub)
- *   ├── providers.csv
- *  ├── receivers.csv
- *   ├── food_listings.csv
- *   └── claims.csv
-
----
-
+│
+├── Food_WastageManagement.py        # Main Streamlit application (7 pages)
+├── eda.py                           # Python EDA script (16 charts)
+├── requirements.txt                 # Python dependencies
+├── README.md                        # This file
+│
+├── eda_charts/                      # Generated EDA chart images
+│   ├── 01_provider_type.png
+│   ├── 02_receiver_type.png
+│   └── ... (16 charts total)
+│
+└── (CSV files — not pushed to GitHub)
+    ├── providers_data.csv
+    ├── receivers_data.csv
+    ├── food_listings_data.csv
+    └── claims_data.csv
+```
 ## 🔒 Security
 
 * Database credentials are not stored in source code.
