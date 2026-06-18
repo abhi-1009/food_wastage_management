@@ -213,9 +213,9 @@ GitHub Repository
 
 # Prerequisites
 
-Python 3.12+
-MySQL 8.0
-MySQL Workbench
+* Python 3.12+
+* MySQL 8.0
+* MySQL Workbench
 
 # Installation
 
@@ -232,23 +232,23 @@ pip install -r requirements.txt
 ```
 3. Set up the database
 
-Open MySQL Workbench and run the SQL script to create tables:
-
+* Open MySQL Workbench and run the SQL script to create tables:
+```bash
 sql
 CREATE DATABASE food_wastage;
 USE food_wastage;
 -- Run the full SQL script to create all tables
-
-Load data using the staging table approach with MySQL Workbench Import Wizard.
+```
+* Load data using the staging table approach with MySQL Workbench Import Wizard.
 
 4. Update credentials in the Python file
 
-python
-HOST     = "localhost"
-PORT     = 3306
-USER     = "root"
-PASSWORD = "your_password"
-DATABASE = "food_wastage"
+* python
+* HOST     = "localhost"
+* PORT     = 3306
+* USER     = "root"
+* PASSWORD = "your_password"
+* DATABASE = "food_wastage"
 
 5. Run the Streamlit app
 
