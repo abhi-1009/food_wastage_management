@@ -237,15 +237,15 @@ pip install -r requirements.txt
 sql
 CREATE DATABASE food_wastage;
 USE food_wastage;
--- Run the full SQL script to create all tables
 ```
+* Run the full SQL script to create all tables
+
 * Load data using the staging table approach with MySQL Workbench Import Wizard.
 
 4. Update credentials in the Python file
-
-* python
+   
 * HOST     = "localhost"
-* PORT     = 3306
+* PORT     =  3306
 * USER     = "root"
 * PASSWORD = "your_password"
 * DATABASE = "food_wastage"
