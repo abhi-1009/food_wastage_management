@@ -60,11 +60,11 @@ The project uses four relational tables:
 
 ## Key Statistics:
 
-Total Records: 4,000 across 4 tables
-25,794 total food units available
-624 cities covered
-339 completed claims | 325 pending | 336 cancelled
-Date range: March 2025
+* Total Records: 4,000 across 4 tables
+* 25,794 total food units available
+* 624 cities covered
+* 339 completed claims | 325 pending | 336 cancelled
+* Date range: March 2025
 
 ---
 
@@ -193,14 +193,14 @@ The application answers several business questions, including:
 
 Local Development Environment
 
-Python + Streamlit
-↓
+Python + Streamlit 
+
 MySQL Database -- MySQL Cloud Database hosted on Aiven.
 
 Cloud Deployment
 
 Streamlit Cloud -- Application deployed using Streamlit Community Cloud.
-↓
+
 Aiven Cloud MySQL Database
 
 Version Control
